@@ -7,8 +7,15 @@ function writeCards(array, word){
     return newArray
 }
 
+// function countDown(number){
+//     for (let i = number; i > -1; i--){
+//         console.log(i)
+//     }
+// }
+
 function countDown(number){
-    for (let i = number; i > -1; i--){
-        console.log(i)
+    let count = number
+    while(count > -1){
+        console.log(count--)
     }
 }
